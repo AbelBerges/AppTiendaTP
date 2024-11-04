@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AppTienda</string>
+    <string name="descripcionImagen">Descrpción de la imagen</string>
+    <string name="botonVolver">VOLVER AL HOME</string>
+</resources>

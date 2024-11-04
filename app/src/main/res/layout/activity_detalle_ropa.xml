@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.DetalleRopaActivity">
+
+    <ImageView
+        android:id="@+id/detalleImagenRopa"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/ic_launcher_foreground">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/detalleNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/coverTalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/ic_launcher_foreground">
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/coverColores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:srcCompat="@drawable/ic_launcher_foreground">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/detalleMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/detallePrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:gravity="center">
+    </TextView>
+
+    <TextView
+        android:id="@+id/detalleStock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/alata"
+        android:text="@string/botonVolver"
+        android:textSize="16sp">
+    </Button>
+</LinearLayout>
