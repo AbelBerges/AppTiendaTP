@@ -22,8 +22,10 @@ public class DetalleRopaActivity extends AppCompatActivity {
         binding.coverTalles.setImageResource(getIntent().getIntExtra("talle",0));
         binding.coverColores.setImageResource(getIntent().getIntExtra("color",0));
         binding.detalleMarca.setText(getIntent().getStringExtra("marca"));
-        binding.detallePrecio.setText(String.valueOf(getIntent().getFloatExtra("precio",0)));
-        binding.detalleStock.setText(String.valueOf(getIntent().getIntExtra("stock",0)));
+        //binding.detallePrecio.setText(String.valueOf(getIntent().getFloatExtra("precio",0)));
+        binding.detallePrecio.setText(getIntent().getStringExtra("precio"));
+        //binding.detalleStock.setText(String.valueOf(getIntent().getIntExtra("stock",0)));
+        binding.detalleStock.setText(getIntent().getStringExtra("stock"));
 
         binding.btnVolver.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -72,4 +72,15 @@ public class Ropa {
     public void setStock(int stock) {
         this.stock = stock;
     }
+
+    public String cadenaMarca(){
+        return "Marca " + this.marca;
+    }
+
+    public String cadenaPrecio(){
+        return "Precio: $" + this.precio;
+    }
+    public String cadenaStock(){
+        return "Unidades disponibles: " + this.stock;
+    }
 }

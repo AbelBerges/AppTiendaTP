@@ -41,9 +41,9 @@ public class MainActivity extends AppCompatActivity {
                             intent.putExtra("foto", ropa.getFoto());
                             intent.putExtra("talle", ropa.getTalle());
                             intent.putExtra("color", ropa.getColor());
-                            intent.putExtra("marca", ropa.getMarca());
-                            intent.putExtra("precio", ropa.getPrecio());
-                            intent.putExtra("stock", ropa.getStock());
+                            intent.putExtra("marca", ropa.cadenaMarca());
+                            intent.putExtra("precio", ropa.cadenaPrecio());
+                            intent.putExtra("stock", ropa.cadenaStock());
                             startActivity(intent);
                         }
                     },MainActivity.this);
